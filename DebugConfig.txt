@@ -1,0 +1,10 @@
+DebugLoggingEnabled False
+LogToDisk False
+ForceFnetLayer False
+ForceSteamLayer False
+UseRelayServer False
+networkPort 1050
+debugTools False
+portForward True
+disableAssetPool False
+assetPoolInOnline False
