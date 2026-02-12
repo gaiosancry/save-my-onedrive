@@ -1,0 +1,16 @@
+{
+	"script_content": {
+		"executable": [{
+				"file_path": "%INSTALLDIR%\\vc2010x64\\vcredist_x64.exe",
+				"file_type": "",
+				"registry": "Software\\Tencent\\WeGame\\Apps\\WGCommonRedist\\vcredist\\2010",
+				"requirement_os": "windows_x64",
+				"command": "/q /norestart",
+				"repair_command": "/repair /q /norestart",
+				"version": "10.0.30319.1",
+				"description": "VC++2010_x64",
+				"timeout": "300"
+			}
+		]
+	}
+}

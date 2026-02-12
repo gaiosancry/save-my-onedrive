@@ -1,0 +1,16 @@
+{
+	"script_content": {
+		"executable": [{
+			"file_path": "%INSTALLDIR%\\DotNet 4.5.1\\NDP451-KB2858728-x86-x64-AllOS-ENU.exe",
+			"file_type": "",
+            "install_order": 98,
+			"registry": "Software\\Tencent\\WeGame\\Apps\\WGCommonRedist\\.NET\\4.5.1",
+			"requirement_os": "windows_x86",
+			"command": "/q /norestart",
+			"repair_command": "/repair /q /norestart",
+			"version": "4.5.1",
+			"description": ".NET Framework 4.5.1",
+			"timeout": "400"
+		}]
+	}
+}

@@ -1,0 +1,14 @@
+{
+	"script_content": {
+		"executable": [{
+			"file_path": "%INSTALLDIR%\\DirectX\\Jun2010\\DXSETUP.exe",
+			"file_type": "",
+			"registry": "Software\\Tencent\\WeGame\\Apps\\WGCommonRedist\\DirectX\\Jun2010",
+			"requirement_os": "windows_x86",
+			"command": "/silent",
+			"version": "2010",
+			"description": "DirectX 2010",
+			"timeout": "300"
+		}]
+	}
+}

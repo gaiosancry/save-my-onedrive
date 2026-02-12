@@ -1,0 +1,101 @@
+[0918/193133:ERROR:resource_bundle.cc(751)] Failed to load C:\code_work\nwjs\nwjs-sdk-v0.14.7-win-ia32(publish) - 鍓湰\nw_100_percent.pak
+Some features may not be available.
+[0918/193133:ERROR:resource_bundle.cc(751)] Failed to load C:\code_work\nwjs\nwjs-sdk-v0.14.7-win-ia32(publish) - 鍓湰\nw_100_percent.pak
+Some features may not be available.
+[0918/193214:ERROR:resource_bundle.cc(751)] Failed to load C:\code_work\nwjs\nwjs-sdk-v0.14.7-win-ia32(publish) - 鍓湰\nw_100_percent.pak
+Some features may not be available.
+[0918/193215:ERROR:resource_bundle.cc(751)] Failed to load C:\code_work\nwjs\nwjs-sdk-v0.14.7-win-ia32(publish) - 鍓湰\nw_100_percent.pak
+Some features may not be available.
+[0918/193237:FATAL:v8_initializer.cc(171)] Failed to open V8 file 'C:\code_work\nwjs\nwjs-sdk-v0.14.7-win-ia32(publish) - 鍓湰\natives_blob.bin' (reason: -4)
+Backtrace:
+	std::vector<v8::CpuProfileDeoptInfo,std::allocator<v8::CpuProfileDeoptInfo> >::crend [0x02E3FD87+39271]
+	std::vector<v8::CpuProfileDeoptFrame,std::allocator<v8::CpuProfileDeoptFrame> >::_Buy [0x02DFE331+123169]
+	v8::Extension::source_length [0x043D47C5+997045]
+	v8::Extension::source_length [0x043D42FE+995822]
+	v8::ExternalOneByteStringResourceImpl::~ExternalOneByteStringResourceImpl [0x02DC8CBF+418671]
+	v8::ExternalOneByteStringResourceImpl::~ExternalOneByteStringResourceImpl [0x02DC74CE+412542]
+	ChromeMain [0x02A7197B+107]
+	GetUploadedReportsImpl [0x01036472+2770]
+	GetUploadedReportsImpl [0x01035D1D+893]
+	IsSandboxedProcess [0x01088CB0+195456]
+	BaseThreadInitThunk [0x77518494+36]
+	RtlAreBitsSet [0x779341C8+136]
+	RtlAreBitsSet [0x77934198+88]
+
+[0918/193303:ERROR:resource_bundle.cc(751)] Failed to load C:\code_work\nwjs\nwjs-sdk-v0.14.7-win-ia32(publish) - 鍓湰\nw_100_percent.pak
+Some features may not be available.
+[0918/193303:ERROR:resource_bundle.cc(751)] Failed to load C:\code_work\nwjs\nwjs-sdk-v0.14.7-win-ia32(publish) - 鍓湰\nw_100_percent.pak
+Some features may not be available.
+[0918/193737:ERROR:resource_bundle.cc(751)] Failed to load C:\code_work\nwjs\nwjs-sdk-v0.14.7-win-ia32_xueyuan\nw_100_percent.pak
+Some features may not be available.
+[0918/193738:ERROR:resource_bundle.cc(751)] Failed to load C:\code_work\nwjs\nwjs-sdk-v0.14.7-win-ia32_xueyuan\nw_100_percent.pak
+Some features may not be available.
+[0918/200218:ERROR:resource_bundle.cc(751)] Failed to load C:\code_work\nwjs\nwjs-sdk-v0.14.7-win-ia32_xueyuan\nw_100_percent.pak
+Some features may not be available.
+[0918/200219:ERROR:resource_bundle.cc(751)] Failed to load C:\code_work\nwjs\nwjs-sdk-v0.14.7-win-ia32_xueyuan\nw_100_percent.pak
+Some features may not be available.
+[0919/140459:ERROR:resource_bundle.cc(751)] Failed to load C:\code_work\nwjs\nwjs-sdk-v0.14.7-win-ia32_xueyuan\nw_100_percent.pak
+Some features may not be available.
+[0919/140459:ERROR:resource_bundle.cc(751)] Failed to load C:\code_work\nwjs\nwjs-sdk-v0.14.7-win-ia32_xueyuan\nw_100_percent.pak
+Some features may not be available.
+[0919/140704:ERROR:resource_bundle.cc(751)] Failed to load C:\code_work\nwjs\nwjs-sdk-v0.14.7-win-ia32_xueyuan\nw_100_percent.pak
+Some features may not be available.
+[0919/140706:ERROR:resource_bundle.cc(751)] Failed to load C:\code_work\nwjs\nwjs-sdk-v0.14.7-win-ia32_xueyuan\nw_100_percent.pak
+Some features may not be available.
+[0919/140738:ERROR:resource_bundle.cc(751)] Failed to load C:\code_work\nwjs\nwjs-sdk-v0.14.7-win-ia32_xueyuan\nw_100_percent.pak
+Some features may not be available.
+[0919/140740:ERROR:resource_bundle.cc(751)] Failed to load C:\code_work\nwjs\nwjs-sdk-v0.14.7-win-ia32_xueyuan\nw_100_percent.pak
+Some features may not be available.
+[0919/140819:ERROR:resource_bundle.cc(751)] Failed to load C:\code_work\nwjs\nwjs-sdk-v0.14.7-win-ia32_xueyuan\nw_100_percent.pak
+Some features may not be available.
+[0919/140821:ERROR:resource_bundle.cc(751)] Failed to load C:\code_work\nwjs\nwjs-sdk-v0.14.7-win-ia32_xueyuan\nw_100_percent.pak
+Some features may not be available.
+[0919/141007:ERROR:resource_bundle.cc(751)] Failed to load C:\code_work\nwjs\nwjs-sdk-v0.14.7-win-ia32_xueyuan\nw_100_percent.pak
+Some features may not be available.
+[0919/141009:ERROR:resource_bundle.cc(751)] Failed to load C:\code_work\nwjs\nwjs-sdk-v0.14.7-win-ia32_xueyuan\nw_100_percent.pak
+Some features may not be available.
+[0919/141244:ERROR:resource_bundle.cc(751)] Failed to load C:\code_work\nwjs\nwjs-sdk-v0.14.7-win-ia32_xueyuan\nw_100_percent.pak
+Some features may not be available.
+[0919/141246:ERROR:resource_bundle.cc(751)] Failed to load C:\code_work\nwjs\nwjs-sdk-v0.14.7-win-ia32_xueyuan\nw_100_percent.pak
+Some features may not be available.
+[0919/141534:ERROR:resource_bundle.cc(751)] Failed to load C:\code_work\nwjs\nwjs-sdk-v0.14.7-win-ia32_xueyuan\nw_100_percent.pak
+Some features may not be available.
+[0919/141537:ERROR:resource_bundle.cc(751)] Failed to load C:\code_work\nwjs\nwjs-sdk-v0.14.7-win-ia32_xueyuan\nw_100_percent.pak
+Some features may not be available.
+[0919/141609:ERROR:resource_bundle.cc(751)] Failed to load C:\code_work\nwjs\nwjs-sdk-v0.14.7-win-ia32_xueyuan\nw_100_percent.pak
+Some features may not be available.
+[0919/141611:ERROR:resource_bundle.cc(751)] Failed to load C:\code_work\nwjs\nwjs-sdk-v0.14.7-win-ia32_xueyuan\nw_100_percent.pak
+Some features may not be available.
+[0919/141744:ERROR:resource_bundle.cc(751)] Failed to load C:\code_work\nwjs\nwjs-sdk-v0.14.7-win-ia32_xueyuan\nw_100_percent.pak
+Some features may not be available.
+[0919/141746:ERROR:resource_bundle.cc(751)] Failed to load C:\code_work\nwjs\nwjs-sdk-v0.14.7-win-ia32_xueyuan\nw_100_percent.pak
+Some features may not be available.
+[0919/142334:ERROR:main_dll_loader_win.cc(134)] Failed to load NW DLL from C:\code_work\nwjs\nwjs-sdk-v0.14.7-win-ia32_xueyuan\nw.dll: 找不到指定的模块。 (0x7E)
+[0919/142339:ERROR:main_dll_loader_win.cc(134)] Failed to load NW DLL from C:\code_work\nwjs\nwjs-sdk-v0.14.7-win-ia32_xueyuan\nw.dll: 找不到指定的模块。 (0x7E)
+[0919/142340:ERROR:main_dll_loader_win.cc(134)] Failed to load NW DLL from C:\code_work\nwjs\nwjs-sdk-v0.14.7-win-ia32_xueyuan\nw.dll: 找不到指定的模块。 (0x7E)
+[0919/142342:ERROR:main_dll_loader_win.cc(134)] Failed to load NW DLL from C:\code_work\nwjs\nwjs-sdk-v0.14.7-win-ia32_xueyuan\nw.dll: 找不到指定的模块。 (0x7E)
+[0919/142351:ERROR:resource_bundle.cc(751)] Failed to load C:\code_work\nwjs\nwjs-sdk-v0.14.7-win-ia32_xueyuan\nw_100_percent.pak
+Some features may not be available.
+[0919/142353:ERROR:resource_bundle.cc(751)] Failed to load C:\code_work\nwjs\nwjs-sdk-v0.14.7-win-ia32_xueyuan\nw_100_percent.pak
+Some features may not be available.
+[0919/142405:ERROR:main_dll_loader_win.cc(134)] Failed to load NW DLL from C:\code_work\nwjs\nwjs-sdk-v0.14.7-win-ia32_xueyuan\nw.dll: 找不到指定的模块。 (0x7E)
+[0919/142434:ERROR:resource_bundle.cc(751)] Failed to load C:\code_work\nwjs\nwjs-sdk-v0.14.7-win-ia32_xueyuan\nw_100_percent.pak
+Some features may not be available.
+[0919/142435:ERROR:resource_bundle.cc(751)] Failed to load C:\code_work\nwjs\nwjs-sdk-v0.14.7-win-ia32_xueyuan\nw_100_percent.pak
+Some features may not be available.
+[0919/142449:ERROR:resource_bundle.cc(751)] Failed to load C:\code_work\nwjs\nwjs-sdk-v0.14.7-win-ia32_xueyuan\nw_100_percent.pak
+Some features may not be available.
+[0919/142450:ERROR:resource_bundle.cc(751)] Failed to load C:\code_work\nwjs\nwjs-sdk-v0.14.7-win-ia32_xueyuan\nw_100_percent.pak
+Some features may not be available.
+[0919/142503:ERROR:resource_bundle.cc(751)] Failed to load C:\code_work\nwjs\nwjs-sdk-v0.14.7-win-ia32_xueyuan\nw_100_percent.pak
+Some features may not be available.
+[0919/142505:ERROR:resource_bundle.cc(751)] Failed to load C:\code_work\nwjs\nwjs-sdk-v0.14.7-win-ia32_xueyuan\nw_100_percent.pak
+Some features may not be available.
+[0919/142730:ERROR:resource_bundle.cc(751)] Failed to load C:\code_work\nwjs\nwjs-sdk-v0.14.7-win-ia32_xueyuan\nw_100_percent.pak
+Some features may not be available.
+[0919/142732:ERROR:resource_bundle.cc(751)] Failed to load C:\code_work\nwjs\nwjs-sdk-v0.14.7-win-ia32_xueyuan\nw_100_percent.pak
+Some features may not be available.
+[0919/143209:ERROR:resource_bundle.cc(751)] Failed to load C:\code_work\nwjs\nwjs-sdk-v0.14.7-win-ia32_xueyuan\nw_100_percent.pak
+Some features may not be available.
+[0919/143211:ERROR:resource_bundle.cc(751)] Failed to load C:\code_work\nwjs\nwjs-sdk-v0.14.7-win-ia32_xueyuan\nw_100_percent.pak
+Some features may not be available.

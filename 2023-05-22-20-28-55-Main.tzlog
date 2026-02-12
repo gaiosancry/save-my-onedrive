@@ -1,0 +1,353 @@
+2023-05-22 20-28-55.527 Thread: 16076 Info Setup logging for Topaz Video AI 3.2.0
+2023-05-22 20-28-55.529 Thread: 16076 Info QList("D:/TopazVideoAI/App/Topaz Video AI", "qrc:/qt-project.org/imports", "D:/TopazVideoAI/App/Topaz Video AI/qml")
+2023-05-22 20-28-55.530 Thread: 16076 Info TCrashReporter::start:: starting TCrashReporter for app version  "3.2.0"
+2023-05-22 20-28-55.532 Thread: 16076 Info TCrashReporter::start:: created crashdata dir at  "C:/Users/国烨林/AppData/Local/Temp/VideoAIportableTemp/Topaz Labs LLC/Topaz Video AI/Crashes/db"
+2023-05-22 20-28-55.532 Thread: 16076 Info TCrashReporter::start:: handlerPath:  "D:/TopazVideoAI/crashpad_handler.exe"
+2023-05-22 20-28-55.533 Thread: 16076 Info Crash reports will be uploaded
+2023-05-22 20-28-55.533 Thread: 16076 Info TCrashReporter::reportCrashToAmplitudeIfHadOneLastRun:: Checking if we had a crash last run...
+2023-05-22 20-28-55.533 Thread: 16076 Info TCrashReporter::reportCrashToAmplitudeIfHadOneLastRun:: Crash not reported last run.
+2023-05-22 20-28-55.533 Thread: 16076 Info "TCrashReporter::cleanCrashesDirToMaxNumCrashDumps:: Checking if we should clean crashes dir to only have 20 dump files."
+2023-05-22 20-28-55.534 Thread: 16076 Info "TCrashReporter::cleanCrashesDirToMaxNumCrashDumps:: Num crash dumps is only 0. No need to clean."
+[12552:15836:20230522,202855.539:ERROR crashpad_client_win.cc:521] CreateProcess: 系统找不到指定的文件。 (2)
+2023-05-22 20-28-55.539 Thread: 16076 Critical TCrashReporter::start:: ERROR: start unsuccessful
+2023-05-22 20-28-56.006 Thread: 16076 Info WINDOWS VERSION IS  11.2009
+2023-05-22 20-28-56.006 Thread: 16076 Info VNNI:  false  AVX:  true  CPUName:  AMD Ryzen 7 5800H with Radeon Graphics           支数:  16
+2023-05-22 20-28-56.006 Thread: 16076 Info MEM TOTAL:  31.8518 AVAIL: 21.9084
+2023-05-22 20-28-56.006 Thread: 16076 Info 机器编号： "8f9ab2d6-660c-4f9e-b6ac-7755cde9003b"
+2023-05-22 20-28-56.013 Thread: 16076 Info 可用显卡列表
+2023-05-22 20-28-56.268 Thread: 16076 Info 0 内存信息 2882011136 0 0 5495586816
+2023-05-22 20-28-56.286 Thread: 16076 Debug 获计算级别 806 for 0 0
+2023-05-22 20-28-56.286 Thread: 16076 Info 1  设备 ID:  0 名称: NVIDIA GeForce RTX 3060 Laptop GPU  VRAM:  5.86816  GB DataType:  2  串行:  013798  可见:  true 指数:  0
+2023-05-22 20-28-56.304 Thread: 16076 Info 1 内存信息 8281717760 0 0 16295000064
+2023-05-22 20-28-56.305 Thread: 16076 Debug 无法获得 cudaId 1
+2023-05-22 20-28-56.305 Thread: 16076 Info 2  设备 ID:  1 名称: Microsoft Basic Render Driver  VRAM:  0  GB DataType:  2  串行:  0146ec  可见:  false 指数:  0
+2023-05-22 20-28-56.305 Thread: 16076 Info 系统信息 "8f9ab2d6-660c-4f9e-b6ac-7755cde9003b"
+2023-05-22 20-28-56.305 Thread: 16076 Info OS Windows Version 11.2009
+2023-05-22 20-28-56.305 Thread: 16076 Info CPU AMD Ryzen 7 5800H with Radeon Graphics          Threads 16 AVX true AVX2 true VNNI false
+2023-05-22 20-28-56.305 Thread: 16076 Info 是苹果处理器 false
+2023-05-22 20-28-56.305 Thread: 16076 Info Total RAM 31.8518 Free/Used 9.94344
+2023-05-22 20-28-56.305 Thread: 16076 Info 设备数量: 1
+2023-05-22 20-28-56.305 Thread: 16076 Info 设备ID:  0 名称： NVIDIA GeForce RTX 3060 Laptop GPU 核心： 0 显存： 5.86816 GB 已用显存： 0 显存空闲: 2.68408 GB数据类型： 2 串行:  013798 计算级别:  806 可见： true 遗留: false
+2023-05-22 20-28-57.167 Thread: 16076 Warning qrc:/elements/TMenuItem.qml:13:5: QML Shortcut: Shortcut: Only binding to one of multiple key bindings associated with 10. Use 'sequences: [ <key> ]' to bind to all of them.
+2023-05-22 20-28-57.167 Thread: 16076 Warning qrc:/elements/TMenuItem.qml:13:5: QML Shortcut: Shortcut: Only binding to one of multiple key bindings associated with 9. Use 'sequences: [ <key> ]' to bind to all of them.
+2023-05-22 20-28-57.273 Thread: 16076 Info Reading encoders from file "C:\\ProgramData\\Topaz Labs LLC\\Topaz Video AI\\models/encoders.json"
+2023-05-22 20-28-57.274 Thread: 16076 Debug All encoders: windows [{"text":"ProRes 422 LT","encoder":"-c:v prores_ks -profile:v 1 -vendor apl0 -quant_mat lt -bits_per_mb 525 -pix_fmt yuv422p10le","ext":["mov"],"transcode":"aac -b:a 320k -ac 2","os":"windows","minSize":[1,1],"maxSize":[16255,16255],"maxBitDepth":10,"doNotScaleFullColorRange":"transcode"},{"text":"ProRes 422 HQ","encoder":"-c:v prores_ks -profile:v 3 -vendor apl0 -quant_mat hq -bits_per_mb 1350 -pix_fmt yuv422p10le","ext":["mov"],"transcode":"aac -b:a 320k -ac 2","os":"windows","minSize":[1,1],"maxSize":[16255,16255],"maxBitDepth":10,"doNotScaleFullColorRange":"transcode"},{"text":"ProRes 422 LT","encoder":"-c:v prores_videotoolbox -profile:v lt -pix_fmt p210le -allow_sw 1","ext":["mov"],"transcode":"aac -b:a 320k -ac 2","os":"osx","minSize":[2,2],"maxSize":[15360,8640]},{"text":"ProRes 422 HQ","encoder":"-c:v prores_videotoolbox -profile:v hq -pix_fmt p210le -allow_sw 1","ext":["mov"],"transcode":"aac -b:a 320k -ac 2","os":"osx","minSize":[2,2],"maxSize":[15360,8640]},{"text":"ProRes 4444 XQ","encoder":"-c:v prores_videotoolbox -profile:v xq -pix_fmt p416le -allow_sw 1","ext":["mov"],"transcode":"aac -b:a 320k -ac 2","os":"osx","osVersion":12,"minSize":[2,2],"maxSize":[15360,8640],"doNotScaleFullColorRange":"always"},{"text":"H264 High","encoder":"-c:v h264_videotoolbox -profile:v high -pix_fmt yuv420p -allow_sw 1","ext":["mov","mkv","mp4"],"autoBitsPerPixel":"1.0","maxBitRate":2000,"transcode":"aac -b:a 320k -ac 2","os":"osx","minSize":[2,2],"maxSize":[7680,4320],"doNotScaleFullColorRange":"always"},{"text":"H265 Main","encoder":"-c:v hevc_videotoolbox -profile:v main -tag:v hvc1 -pix_fmt yuv420p -allow_sw 1","ext":["mov","mkv","mp4"],"autoBitsPerPixel":"0.8","maxBitRate":2000,"transcode":"aac -b:a 320k -ac 2","os":"osx","minSize":[2,2],"maxSize":[15360,8640],"doNotScaleFullColorRange":"always"},{"text":"H265 Main10","encoder":"-c:v hevc_videotoolbox -profile:v main10 -tag:v hvc1 -pix_fmt p010le -allow_sw 1","ext":["mov","mkv","mp4"],"autoBitsPerPixel":"1.0","maxBitRate":2000,"transcode":"aac -b:a 320k -ac 2","os":"osx","minSize":[2,2],"maxSize":[15360,8640]},{"text":"H264 High (AMD)","encoder":"-c:v h264_amf -profile:v high -pix_fmt yuv420p","ext":["mov","mkv","mp4"],"maxBitRate":2000,"transcode":"aac -b:a 320k -ac 2","os":"windows","device":"amd|radeon"},{"text":"H265 Main (AMD)","encoder":"-c:v hevc_amf -profile:v main -profile_tier main -pix_fmt yuv420p","ext":["mov","mkv","mp4"],"maxBitRate":2000,"transcode":"aac -b:a 320k -ac 2","os":"windows","device":"amd|radeon"},{"text":"H265 High (AMD)","encoder":"-c:v hevc_amf -profile:v main -profile_tier high -pix_fmt yuv420p","ext":["mov","mkv","mp4"],"maxBitRate":2000,"transcode":"aac -b:a 320k -ac 2","os":"windows","device":"amd|radeon"},{"text":"H264 High (NVIDIA)","encoder":"-c:v h264_nvenc -profile:v high -preset medium -pix_fmt yuv420p","ext":["mov","mkv","mp4"],"maxBitRate":2000,"transcode":"aac -b:a 320k -ac 2","os":"windows","device":"nvidia","minSize":[145,145],"maxSize":[4096,4096],"maxBitDepth":8},{"text":"H265 Main (NVIDIA)","encoder":"-c:v hevc_nvenc -profile:v main -preset medium -pix_fmt yuv420p -b_ref_mode disabled -tag:v hvc1","ext":["mov","mkv","mp4"],"maxBitRate":2000,"transcode":"aac -b:a 320k -ac 2","os":"windows","device":"nvidia","minSize":[129,129],"maxSize":[8192,8192],"maxBitDepth":12},{"text":"H265 Main10 (NVIDIA)","encoder":"-c:v hevc_nvenc -profile:v main10 -preset medium -pix_fmt p010le -b_ref_mode disabled -tag:v hvc1","ext":["mov","mkv","mp4"],"maxBitRate":2000,"transcode":"aac -b:a 320k -ac 2","os":"windows","device":"nvidia","minSize":[129,129],"maxSize":[8192,8192],"maxBitDepth":12},{"text":"H264 High (INTEL)","encoder":"-c:v h264_qsv -profile:v high -preset medium -max_frame_size 65534 -pix_fmt nv12","ext":["mov","mkv","mp4"],"autoBitsPerPixel":"1.0","maxBitRate":2000,"transcode":"aac -b:a 320k -ac 2","os":"windows","device":"intel","minSize":[17,17],"maxSize":[3840,2160]},{"text":"H265 Main (INTEL)","encoder":"-c:v hevc_qsv -profile:v main -preset medium -max_frame_size 65534 -pix_fmt nv12","ext":["mov","mkv","mp4"],"autoBitsPerPixel":"0.8","maxBitRate":2000,"transcode":"aac -b:a 320k -ac 2","os":"windows","device":"intel","minSize":[1,1],"maxSize":[3840,2160]},{"text":"H265 Main10 (INTEL)","encoder":"-c:v hevc_qsv -profile:v main10 -preset medium -max_frame_size 65534 -pix_fmt p010le","ext":["mov","mkv","mp4"],"autoBitsPerPixel":"1.0","maxBitRate":2000,"transcode":"aac -b:a 320k -ac 2","os":"windows","device":"intel","minSize":[1,1],"maxSize":[3840,2160]},{"text":"AV1 (NVIDIA)","encoder":"-c:v av1_nvenc -preset p4 -tile-columns 2 -tile-rows 2 -pix_fmt yuv420p","ext":["mkv","mp4"],"transcode":"aac -b:a 320k -ac 2","os":"windows","device":"nvidia","maxBitRate":800,"minSize":[1,1],"maxSize":[16384,8704],"maxBitDepth":12,"compute":809},{"text":"AV1 (INTEL)","encoder":"-c:v av1_qsv -profile:v main -preset 4 -tile_cols 2 -tile_rows 2 -pix_fmt nv12","ext":["mkv","mp4"],"maxBitRate":800,"transcode":"aac -b:a 320k -ac 2","os":"windows","device":"arc","minSize":[1,1],"maxSize":[16384,8704],"maxBitDepth":12},{"text":"VP9 Good","encoder":"-strict -2 -c:v libvpx-vp9 -pix_fmt yuv420p -row-mt 1 -deadline good","ext":["mp4","webm"],"transcode":"vorbis -ac 2","maxBitRate":2000,"minSize":[1,1],"maxSize":[8192,8192],"maxBitDepth":12},{"text":"VP9 Best","encoder":"-strict -2 -c:v libvpx-vp9 -pix_fmt yuv420p -row-mt 1 -deadline best","ext":["mp4","webm"],"transcode":"vorbis -ac 2","maxBitRate":2000,"minSize":[1,1],"maxSize":[8192,8192],"maxBitDepth":12},{"text":"TIFF Lossless 8bit","encoder":"-c:v tiff -pix_fmt rgb24 -compression_algo deflate","ext":["tiff"],"isImage":true},{"text":"TIFF Lossless 16bit","encoder":"-c:v tiff -pix_fmt rgb48le -compression_algo deflate","ext":["tiff"],"isImage":true},{"text":"PNG 8bit","encoder":"-c:v png -pix_fmt rgb24","ext":["png"],"isImage":true},{"text":"PNG 16bit","encoder":"-c:v png -pix_fmt rgb48be","ext":["png"],"isImage":true},{"text":"JPEG 8bit","encoder":"-pix_fmt rgb24 -q:v 2","ext":["jpg"],"isImage":true},{"text":"EXR","encoder":"-q:v 2","ext":["exr"],"isImage":true}]
+2023-05-22 20-28-57.274 Thread: 16076 Info INFO: encoder list  [{"text":"ProRes 422 LT","encoder":"-c:v prores_ks -profile:v 1 -vendor apl0 -quant_mat lt -bits_per_mb 525 -pix_fmt yuv422p10le","ext":["mov"],"transcode":"aac -b:a 320k -ac 2","os":"windows","minSize":[1,1],"maxSize":[16255,16255],"maxBitDepth":10,"doNotScaleFullColorRange":"transcode"},{"text":"ProRes 422 HQ","encoder":"-c:v prores_ks -profile:v 3 -vendor apl0 -quant_mat hq -bits_per_mb 1350 -pix_fmt yuv422p10le","ext":["mov"],"transcode":"aac -b:a 320k -ac 2","os":"windows","minSize":[1,1],"maxSize":[16255,16255],"maxBitDepth":10,"doNotScaleFullColorRange":"transcode"},{"text":"H264 High (NVIDIA)","encoder":"-c:v h264_nvenc -profile:v high -preset medium -pix_fmt yuv420p","ext":["mov","mkv","mp4"],"maxBitRate":2000,"transcode":"aac -b:a 320k -ac 2","os":"windows","device":"nvidia","minSize":[145,145],"maxSize":[4096,4096],"maxBitDepth":8},{"text":"H265 Main (NVIDIA)","encoder":"-c:v hevc_nvenc -profile:v main -preset medium -pix_fmt yuv420p -b_ref_mode disabled -tag:v hvc1","ext":["mov","mkv","mp4"],"maxBitRate":2000,"transcode":"aac -b:a 320k -ac 2","os":"windows","device":"nvidia","minSize":[129,129],"maxSize":[8192,8192],"maxBitDepth":12},{"text":"H265 Main10 (NVIDIA)","encoder":"-c:v hevc_nvenc -profile:v main10 -preset medium -pix_fmt p010le -b_ref_mode disabled -tag:v hvc1","ext":["mov","mkv","mp4"],"maxBitRate":2000,"transcode":"aac -b:a 320k -ac 2","os":"windows","device":"nvidia","minSize":[129,129],"maxSize":[8192,8192],"maxBitDepth":12},{"text":"VP9 Good","encoder":"-strict -2 -c:v libvpx-vp9 -pix_fmt yuv420p -row-mt 1 -deadline good","ext":["mp4","webm"],"transcode":"vorbis -ac 2","maxBitRate":2000,"minSize":[1,1],"maxSize":[8192,8192],"maxBitDepth":12},{"text":"VP9 Best","encoder":"-strict -2 -c:v libvpx-vp9 -pix_fmt yuv420p -row-mt 1 -deadline best","ext":["mp4","webm"],"transcode":"vorbis -ac 2","maxBitRate":2000,"minSize":[1,1],"maxSize":[8192,8192],"maxBitDepth":12},{"text":"TIFF Lossless 8bit","encoder":"-c:v tiff -pix_fmt rgb24 -compression_algo deflate","ext":["tiff"],"isImage":true},{"text":"TIFF Lossless 16bit","encoder":"-c:v tiff -pix_fmt rgb48le -compression_algo deflate","ext":["tiff"],"isImage":true},{"text":"PNG 8bit","encoder":"-c:v png -pix_fmt rgb24","ext":["png"],"isImage":true},{"text":"PNG 16bit","encoder":"-c:v png -pix_fmt rgb48be","ext":["png"],"isImage":true},{"text":"JPEG 8bit","encoder":"-pix_fmt rgb24 -q:v 2","ext":["jpg"],"isImage":true},{"text":"EXR","encoder":"-q:v 2","ext":["exr"],"isImage":true}]
+2023-05-22 20-28-57.275 Thread: 16076 Info TVAI_MODEL_DIR, veaiDataFolder  C:\ProgramData\Topaz Labs LLC\Topaz Video AI\
+2023-05-22 20-28-57.277 Thread: 16076 Info STORAGE: QStorageInfo("C:/", type=NTFS, name="Alpha", device="\\?\Volume{56a65819-1ed7-48b6-b0b5-72131db5ef33}\" [ready], bytesTotal=429497774080, bytesFree=213696839680, bytesAvailable=213696839680) readOnly false blockSize 4096
+2023-05-22 20-28-57.277 Thread: 16076 Info STORAGE: QStorageInfo("D:/", type=NTFS, name="Charlie", device="\\?\Volume{714cdf91-40d6-4c91-bdc7-88d1fae16bdf}\" [ready], bytesTotal=512108785664, bytesFree=265916276736, bytesAvailable=265916276736) readOnly false blockSize 16384
+2023-05-22 20-28-57.277 Thread: 16076 Info STORAGE: QStorageInfo("E:/", type=NTFS, name="Beta", device="\\?\Volume{e539aea6-924f-4ea4-89dd-6b7b66ca7e06}\" [ready], bytesTotal=570374688768, bytesFree=133791477760, bytesAvailable=133791477760) readOnly false blockSize 4096
+2023-05-22 20-28-57.277 Thread: 16076 Info STORAGE: QStorageInfo("F:/", type=NTFS, name="Echo", device="\\?\Volume{18df39c3-0000-0000-0000-100000000000}\" [ready], bytesTotal=1024208138240, bytesFree=957819883520, bytesAvailable=957819883520) readOnly false blockSize 512
+2023-05-22 20-28-57.277 Thread: 16076 Info STORAGE: QStorageInfo("H:/", type=NTFS, name="Delta", device="\\?\Volume{15e161e0-0000-0000-0000-100000000000}\" [ready], bytesTotal=256059109376, bytesFree=223462088704, bytesAvailable=223462088704) readOnly false blockSize 512
+2023-05-22 20-28-57.277 Thread: 16076 Info Sending tracking event:  "Application Started"
+2023-05-22 20-28-57.295 Thread: 16076 Debug Importing files 0
+2023-05-22 20-28-57.295 Thread: 16076 Warning qrc:/updater/TUpdateDialog.qml:47: ReferenceError: updateBtn is not defined
+2023-05-22 20-28-57.298 Thread: 16076 Info Loaded filters: [correction pre,trim,deinterlace,crop,stabilize,motionblur,slowmo,enhance,grain,output,correction post,export]
+2023-05-22 20-28-57.308 Thread: 16076 Warning qrc:/elements/XLabel.qml:71: TypeError: Value is undefined and could not be converted to an object
+2023-05-22 20-28-57.308 Thread: 16076 Warning qrc:/elements/XLabel.qml:70: TypeError: Value is undefined and could not be converted to an object
+2023-05-22 20-28-57.308 Thread: 16076 Warning qrc:/elements/XLabel.qml:68: TypeError: Value is undefined and could not be converted to an object
+2023-05-22 20-28-57.308 Thread: 16076 Warning qrc:/elements/XLabel.qml:67: TypeError: Value is undefined and could not be converted to an object
+2023-05-22 20-28-57.309 Thread: 16076 Warning qrc:/elements/XLabel.qml:66: TypeError: Value is undefined and could not be converted to an object
+2023-05-22 20-28-57.309 Thread: 16076 Warning qrc:/elements/XLabel.qml:65: TypeError: Cannot read property 'weight' of undefined
+2023-05-22 20-28-57.309 Thread: 16076 Warning qrc:/elements/XLabel.qml:64: TypeError: Cannot read property 'pixelSize' of undefined
+2023-05-22 20-28-57.309 Thread: 16076 Warning qrc:/filters/TExport.qml:505: TypeError: Cannot read property '信息     ' of undefined
+2023-05-22 20-28-57.603 Thread: 16076 Info Login response Success: logged in
+LICENSE_DATE|2023-05-22T12:13:57
+USER_EMAIL|pdbxxdd16j@drz0849tkv.com
+
+2023-05-22 20-28-57.603 Thread: 16076 Debug Logged in as pdbxxdd16j@drz0849tkv.com
+2023-05-22 20-28-57.604 Thread: 16076 Debug License expiration 2023-05-22T12:13:57
+2023-05-22 20-28-57.604 Thread: 16076 Info Checking for updates with license date QDateTime(2023-05-22 12:13:57.000 中国标准时间 Qt::LocalTime)
+2023-05-22 20-28-57.604 Thread: 16076 Info Checking for updates at:  ""
+2023-05-22 20-28-57.604 Thread: 16076 Info Params:  QMap(("app_build_type", QVariant(QString, "RELEASE"))("app_cname", QVariant(QString, "VIDEO"))("app_version", QVariant(QString, "3.2.0"))("arch", QVariant(QString, "x86_64"))("cpu_supports_avx", QVariant(QString, "true"))("email_mac", QVariant(QByteArray, "c4860a445b3cfbef0c2b5fe78f70085a8d6455d109404b32a769db1900c0829d"))("license_expiration_datetime", QVariant(QString, "2023-05-22T12:13:57"))("os_type", QVariant(QString, "windows"))("os_version", QVariant(QString, "10.0"))("supports_patch", QVariant(QString, "true"))("user_email", QVariant(QString, "pdbxxdd16j@drz0849tkv.com")))
+2023-05-22 20-28-57.605 Thread: 16076 Warning Network error. Status Code: QNetworkReply::ProtocolUnknownError (0) Error: "协议“”是未知的" Body: ""
+2023-05-22 20-29-01.386 Thread: 16076 Warning Network error. Status Code: QNetworkReply::ConnectionRefusedError (0) Error: "连接被拒绝" Body: ""
+2023-05-22 20-29-12.294 Thread: 16076 Debug Importing files 1
+2023-05-22 20-29-12.294 Thread: 16076 Debug Importing C:/Users/国烨林/Downloads/0bc3guaaqaaak4ahigzbtrrvanodba2qacaa.f10102.mp4 C:/Users/国烨林/Downloads/0bc3guaaqaaak4ahigzbtrrvanodba2qacaa.f10102.mp4
+2023-05-22 20-29-12.296 Thread: 8772 Debug Open Called for file "C:/Users/国烨林/Downloads/0bc3guaaqaaak4ahigzbtrrvanodba2qacaa.f10102.mp4" -1
+2023-05-22 20-29-12.303 Thread: 8772 Debug CodecID: 173
+2023-05-22 20-29-12.304 Thread: 8772 Debug DURATION 31722000 352532993 352.533 352.467 3.1728e+07 false
+2023-05-22 20-29-12.304 Thread: 8772 Debug TIMESTEP 3000 30 30 1 1.11111e-05 1 90000
+2023-05-22 20-29-12.304 Thread: 8772 Info Determining start and end 0 31722000
+2023-05-22 20-29-12.349 Thread: 8772 Info Determined start and end 0 31722000
+2023-05-22 20-29-12.636 Thread: 8772 Debug "C:/Users/国烨林/Downloads/0bc3guaaqaaak4ahigzbtrrvanodba2qacaa.f10102.mp4" loaded in 339  ms
+2023-05-22 20-29-12.639 Thread: 16076 Warning qrc:/elements/TMenuItem.qml:13:5: QML Shortcut: Shortcut: Only binding to one of multiple key bindings associated with 10. Use 'sequences: [ <key> ]' to bind to all of them.
+2023-05-22 20-29-12.639 Thread: 16076 Warning qrc:/elements/TMenuItem.qml:13:5: QML Shortcut: Shortcut: Only binding to one of multiple key bindings associated with 9. Use 'sequences: [ <key> ]' to bind to all of them.
+2023-05-22 20-29-12.650 Thread: 16576 Debug Open Called in VR "C:/Users/国烨林/Downloads/0bc3guaaqaaak4ahigzbtrrvanodba2qacaa.f10102.mp4" 0x40c0
+2023-05-22 20-29-12.654 Thread: 16076 Info  input video opened:  "" QMap(("audio", QVariant(uint, 1))("colorPrimaries", QVariant(int, 2))("colorRange", QVariant(int, 1))("colorSpace", QVariant(int, 2))("colorTrc", QVariant(int, 2))("duration", QVariant(qlonglong, 352466))("fps", QVariant(double, 30))("framerate", QVariant(double, 30))("height", QVariant(int, 1080))("length", QVariant(qlonglong, 31722000))("path", QVariant(QString, "C:/Users/国烨林/Downloads/0bc3guaaqaaak4ahigzbtrrvanodba2qacaa.f10102.mp4"))("pixelFormat", QVariant(QString, "yuv420p"))("resolution", QVariant(QSize, QSize(1920, 1080)))("sar", QVariant(double, 1))("size", QVariant(QSize, QSize(1920, 1080)))("start", QVariant(qlonglong, 0))("startOffset", QVariant(qlonglong, 0))("step", QVariant(qlonglong, 3000))("subtitle", QVariant(uint, 0))("timebase", QVariant(double, 1.11111e-05))("timestep", QVariant(double, 33.3333))("video", QVariant(uint, 1))("width", QVariant(int, 1920)))
+2023-05-22 20-29-12.662 Thread: 16076 Info "D:/TopazVideoAI/App/Topaz Video AI/ffmpeg" QList("-hide_banner", "-t", "1", "-i", "C:/Users/国烨林/Downloads/0bc3guaaqaaak4ahigzbtrrvanodba2qacaa.f10102.mp4", "-c:v", "prores_ks", "-profile:v", "1", "-vendor", "apl0", "-quant_mat", "lt", "-bits_per_mb", "525", "-pix_fmt", "yuv422p10le", "-c:a", "copy", "C:/Users/国烨林/AppData/Local/Temp/VideoAIportableTemp/160751192/previews/0bc3guaaqaaak4ahigzbtrrvanodba2qacaa.f10102_tvai.mov") false
+2023-05-22 20-29-12.671 Thread: 16076 Info ffmpeg started for audio CMD: D:/TopazVideoAI/App/Topaz Video AI/ffmpeg -hide_banner -t 1 -i C:/Users/国烨林/Downloads/0bc3guaaqaaak4ahigzbtrrvanodba2qacaa.f10102.mp4 -c:v prores_ks -profile:v 1 -vendor apl0 -quant_mat lt -bits_per_mb 525 -pix_fmt yuv422p10le -c:a copy C:/Users/国烨林/AppData/Local/Temp/VideoAIportableTemp/160751192/previews/0bc3guaaqaaak4ahigzbtrrvanodba2qacaa.f10102_tvai.mov
+2023-05-22 20-29-13.998 Thread: 16076 Info EXITED: 0 0 C:/Users/国烨林/Downloads/0bc3guaaqaaak4ahigzbtrrvanodba2qacaa.f10102.mp4|-c:v prores_ks -profile:v 1 -vendor apl0 -quant_mat lt -bits_per_mb 525 -pix_fmt yuv422p10le|mov
+2023-05-22 20-29-13.999 Thread: 16076 Info Close and delete path "C:/Users/国烨林/AppData/Local/Temp/VideoAIportableTemp/160751192/previews/0bc3guaaqaaak4ahigzbtrrvanodba2qacaa.f10102_tvai.mov"
+2023-05-22 20-29-13.999 Thread: 16076 Info Audio auto options updated {"C:/Users/国烨林/Downloads/0bc3guaaqaaak4ahigzbtrrvanodba2qacaa.f10102.mp4|-c:v prores_ks -profile:v 1 -vendor apl0 -quant_mat lt -bits_per_mb 525 -pix_fmt yuv422p10le|mov":"c"}
+2023-05-22 20-29-14.000 Thread: 16076 Info ~TProcess(): destroyed
+2023-05-22 20-29-21.058 Thread: 16076 Info "D:/TopazVideoAI/App/Topaz Video AI/ffmpeg" QList("-hide_banner", "-t", "1", "-i", "C:/Users/国烨林/Downloads/0bc3guaaqaaak4ahigzbtrrvanodba2qacaa.f10102.mp4", "-c:v", "h264_nvenc", "-profile:v", "high", "-preset", "medium", "-pix_fmt", "yuv420p", "-c:a", "copy", "C:/Users/国烨林/AppData/Local/Temp/VideoAIportableTemp/160751192/previews/0bc3guaaqaaak4ahigzbtrrvanodba2qacaa.f10102_tvai.mp4") false
+2023-05-22 20-29-21.066 Thread: 16076 Info ffmpeg started for audio CMD: D:/TopazVideoAI/App/Topaz Video AI/ffmpeg -hide_banner -t 1 -i C:/Users/国烨林/Downloads/0bc3guaaqaaak4ahigzbtrrvanodba2qacaa.f10102.mp4 -c:v h264_nvenc -profile:v high -preset medium -pix_fmt yuv420p -c:a copy C:/Users/国烨林/AppData/Local/Temp/VideoAIportableTemp/160751192/previews/0bc3guaaqaaak4ahigzbtrrvanodba2qacaa.f10102_tvai.mp4
+2023-05-22 20-29-21.066 Thread: 16076 Debug CORRECTION FILTER: 
+2023-05-22 20-29-21.066 Thread: 16076 Debug ASDFAFAFSAFGAG /prores/g
+2023-05-22 20-29-21.068 Thread: 16076 Info Export size check false QSizeF(4096, 4096) QSizeF(145, 145) QSizeF(1920, 1080) false
+2023-05-22 20-29-21.068 Thread: 16076 Debug FFMPEG COMMANDS [{"ffmpeg":["-hide_banner","-nostdin","-y","-i","C:/Users/国烨林/Downloads/0bc3guaaqaaak4ahigzbtrrvanodba2qacaa.f10102.mp4","-sws_flags","spline+accurate_rnd+full_chroma_int","-color_trc",2,"-colorspace",2,"-color_primaries",2,"-c:v","h264_nvenc","-profile:v","high","-preset","medium","-pix_fmt","yuv420p","-b:v","0","-map_metadata","0","-movflags","frag_keyframe+empty_moov+delay_moov+use_metadata_tags+write_colr ","-map_metadata:s:v","0:s:v","-map_metadata:s:a","0:s:a","-c:a","aac","-b:a","320k","-ac","2","C:/Users/国烨林/Downloads/0bc3guaaqaaak4ahigzbtrrvanodba2qacaa.f10102_tvai_temp.mp4"],"frames":10574,"instant":0}] 1
+2023-05-22 20-29-21.069 Thread: 16576 Debug Open Called in VR "C:/Users/国烨林/Downloads/0bc3guaaqaaak4ahigzbtrrvanodba2qacaa.f10102.mp4" 0x40c0
+2023-05-22 20-29-21.071 Thread: 16076 Info "D:/TopazVideoAI/App/Topaz Video AI/ffmpeg" QList("-hide_banner", "-nostdin", "-y", "-i", "C:/Users/国烨林/Downloads/0bc3guaaqaaak4ahigzbtrrvanodba2qacaa.f10102.mp4", "-sws_flags", "spline+accurate_rnd+full_chroma_int", "-color_trc", "2", "-colorspace", "2", "-color_primaries", "2", "-c:v", "h264_nvenc", "-profile:v", "high", "-preset", "medium", "-pix_fmt", "yuv420p", "-b:v", "0", "-map_metadata", "0", "-movflags", "frag_keyframe+empty_moov+delay_moov+use_metadata_tags+write_colr ", "-map_metadata:s:v", "0:s:v", "-map_metadata:s:a", "0:s:a", "-c:a", "aac", "-b:a", "320k", "-ac", "2", "C:/Users/国烨林/Downloads/0bc3guaaqaaak4ahigzbtrrvanodba2qacaa.f10102_tvai_temp.mp4") false
+2023-05-22 20-29-21.079 Thread: 16076 Info ffmpeg started 2 CMD: D:/TopazVideoAI/App/Topaz Video AI/ffmpeg -hide_banner -nostdin -y -i C:/Users/国烨林/Downloads/0bc3guaaqaaak4ahigzbtrrvanodba2qacaa.f10102.mp4 -sws_flags spline+accurate_rnd+full_chroma_int -color_trc 2 -colorspace 2 -color_primaries 2 -c:v h264_nvenc -profile:v high -preset medium -pix_fmt yuv420p -b:v 0 -map_metadata 0 -movflags frag_keyframe+empty_moov+delay_moov+use_metadata_tags+write_colr  -map_metadata:s:v 0:s:v -map_metadata:s:a 0:s:a -c:a aac -b:a 320k -ac 2 C:/Users/国烨林/Downloads/0bc3guaaqaaak4ahigzbtrrvanodba2qacaa.f10102_tvai_temp.mp4
+2023-05-22 20-29-21.090 Thread: 16076 Warning qrc:/elements/TMenuItem.qml:13:5: QML Shortcut: Shortcut: Only binding to one of multiple key bindings associated with 9. Use 'sequences: [ <key> ]' to bind to all of them.
+2023-05-22 20-29-21.122 Thread: 16576 Debug Open Called in VR "C:/Users/国烨林/Downloads/0bc3guaaqaaak4ahigzbtrrvanodba2qacaa.f10102.mp4" 0x40c0
+2023-05-22 20-29-21.128 Thread: 16076 Info  input video opened:  "" QMap(("audio", QVariant(uint, 1))("colorPrimaries", QVariant(int, 2))("colorRange", QVariant(int, 1))("colorSpace", QVariant(int, 2))("colorTrc", QVariant(int, 2))("duration", QVariant(qlonglong, 352466))("fps", QVariant(double, 30))("framerate", QVariant(double, 30))("height", QVariant(int, 1080))("length", QVariant(qlonglong, 31722000))("path", QVariant(QString, "C:/Users/国烨林/Downloads/0bc3guaaqaaak4ahigzbtrrvanodba2qacaa.f10102.mp4"))("pixelFormat", QVariant(QString, "yuv420p"))("resolution", QVariant(QSize, QSize(1920, 1080)))("sar", QVariant(double, 1))("size", QVariant(QSize, QSize(1920, 1080)))("start", QVariant(qlonglong, 0))("startOffset", QVariant(qlonglong, 0))("step", QVariant(qlonglong, 3000))("subtitle", QVariant(uint, 0))("timebase", QVariant(double, 1.11111e-05))("timestep", QVariant(double, 33.3333))("video", QVariant(uint, 1))("width", QVariant(int, 1920)))
+2023-05-22 20-29-21.130 Thread: 16076 Info  input video opened:  "" QMap(("audio", QVariant(uint, 1))("colorPrimaries", QVariant(int, 2))("colorRange", QVariant(int, 1))("colorSpace", QVariant(int, 2))("colorTrc", QVariant(int, 2))("duration", QVariant(qlonglong, 352466))("fps", QVariant(double, 30))("framerate", QVariant(double, 30))("height", QVariant(int, 1080))("length", QVariant(qlonglong, 31722000))("path", QVariant(QString, "C:/Users/国烨林/Downloads/0bc3guaaqaaak4ahigzbtrrvanodba2qacaa.f10102.mp4"))("pixelFormat", QVariant(QString, "yuv420p"))("resolution", QVariant(QSize, QSize(1920, 1080)))("sar", QVariant(double, 1))("size", QVariant(QSize, QSize(1920, 1080)))("start", QVariant(qlonglong, 0))("startOffset", QVariant(qlonglong, 0))("step", QVariant(qlonglong, 3000))("subtitle", QVariant(uint, 0))("timebase", QVariant(double, 1.11111e-05))("timestep", QVariant(double, 33.3333))("video", QVariant(uint, 1))("width", QVariant(int, 1920)))
+2023-05-22 20-29-21.168 Thread: 16076 Info OUT: 2 Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'C:/Users/国烨林/Downloads/0bc3guaaqaaak4ahigzbtrrvanodba2qacaa.f10102.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2mp41
+    encoder         : Lavf58.20.100
+    description     : Tencent CAPD MTS 
+  Duration: 00:05:52.53, start: 0.000000, bitrate: 896 kb/s
+
+2023-05-22 20-29-21.168 Thread: 16076 Info OUT: 2   Stream #0:0[0x1](und): Video: hevc (Main) (hvc1 / 0x31637668), yuv420p(tv), 1920x1080 [SAR 1:1 DAR 16:9], 759 kb/s, 30 fps, 30 tbr, 90k tbn (default)
+    Metadata:
+      handler_name    : VideoHandler
+      vendor_id       : [0][0][0][0]
+  Stream #0:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 128 kb/s (default)
+    Metadata:
+      handler_name    : SoundHandler
+      vendor_id       : [0][0][0][0]
+
+2023-05-22 20-29-21.192 Thread: 16076 Info OUT: 2 Stream mapping:
+  Stream #0:0 -> #0:0 (hevc (native) -> h264 (h264_nvenc))
+  Stream #0:1 -> #0:1 (aac (native) -> aac (native))
+
+2023-05-22 20-29-21.703 Thread: 16076 Info OUT: 2 Output #0, mp4, to 'C:/Users/国烨林/Downloads/0bc3guaaqaaak4ahigzbtrrvanodba2qacaa.f10102_tvai_temp.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2mp41
+    description     : Tencent CAPD MTS 
+    encoder         : Lavf60.4.100
+  Stream #0:0(und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, progressive), 1920x1080 [SAR 1:1 DAR 16:9], q=2-31, 30 fps, 15360 tbn (default)
+    Metadata:
+      handler_name    : VideoHandler
+      vendor_id       : [0][0][0][0]
+      encoder         : Lavc60.6.100 h264_nvenc
+    Side data:
+      cpb: bitrate max/min/avg: 0/0/0 buffer size: 0 vbv_delay: N/A
+
+2023-05-22 20-29-21.703 Thread: 16076 Info OUT: 2   Stream #0:1(und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 320 kb/s (default)
+    Metadata:
+      handler_name    : SoundHandler
+      vendor_id       : [0][0][0][0]
+      encoder         : Lavc60.6.100 aac
+
+2023-05-22 20-29-21.708 Thread: 16076 Debug 正在更新视频信息
+2023-05-22 20-29-21.715 Thread: 16076 Info OUT: 2 frame=    0 fps=0.0 q=0.0 size=       0kB time=00:00:00.44 bitrate=   0.0kbits/s speed=7.82x    
+2023-05-22 20-29-21.742 Thread: 16076 Debug 正在更新视频信息
+2023-05-22 20-29-21.743 Thread: 16076 Info OUT: 2 frame=    0 fps=0.0 q=0.0 size=       0kB time=00:00:00.60 bitrate=   0.0kbits/s speed=1.08x    
+2023-05-22 20-29-21.933 Thread: 16076 Info EXITED: 0 0 C:/Users/国烨林/Downloads/0bc3guaaqaaak4ahigzbtrrvanodba2qacaa.f10102.mp4|-c:v h264_nvenc -profile:v high -preset medium -pix_fmt yuv420p|mp4
+2023-05-22 20-29-21.935 Thread: 16076 Info Close and delete path "C:/Users/国烨林/AppData/Local/Temp/VideoAIportableTemp/160751192/previews/0bc3guaaqaaak4ahigzbtrrvanodba2qacaa.f10102_tvai.mp4"
+2023-05-22 20-29-21.935 Thread: 16076 Info Audio auto options updated {"C:/Users/国烨林/Downloads/0bc3guaaqaaak4ahigzbtrrvanodba2qacaa.f10102.mp4|-c:v prores_ks -profile:v 1 -vendor apl0 -quant_mat lt -bits_per_mb 525 -pix_fmt yuv422p10le|mov":"c","C:/Users/国烨林/Downloads/0bc3guaaqaaak4ahigzbtrrvanodba2qacaa.f10102.mp4|-c:v h264_nvenc -profile:v high -preset medium -pix_fmt yuv420p|mp4":"c"}
+2023-05-22 20-29-21.935 Thread: 16076 Info ~TProcess(): destroyed
+2023-05-22 20-29-22.243 Thread: 16076 Info Open videoPath "C:/Users/国烨林/Downloads/0bc3guaaqaaak4ahigzbtrrvanodba2qacaa.f10102_tvai_temp.mp4" 0x3ecc
+2023-05-22 20-29-22.243 Thread: 16076 Debug 正在更新视频信息
+2023-05-22 20-29-22.245 Thread: 996 Debug Open Called in VR "C:/Users/国烨林/Downloads/0bc3guaaqaaak4ahigzbtrrvanodba2qacaa.f10102_tvai_temp.mp4" 0x3e4
+2023-05-22 20-29-22.245 Thread: 996 Debug Open Called for file "C:/Users/国烨林/Downloads/0bc3guaaqaaak4ahigzbtrrvanodba2qacaa.f10102_tvai_temp.mp4" -1
+2023-05-22 20-29-22.245 Thread: 16076 Info OUT: 2 frame=   89 fps= 84 q=9.0 size=       0kB time=00:00:03.87 bitrate=   0.0kbits/s speed=3.65x    
+2023-05-22 20-29-22.246 Thread: 996 Critical Unable to open file "C:/Users/国烨林/Downloads/0bc3guaaqaaak4ahigzbtrrvanodba2qacaa.f10102_tvai_temp.mp4"
+2023-05-22 20-29-22.246 Thread: 996 Warning Unable to open reader at path: "C:/Users/国烨林/Downloads/0bc3guaaqaaak4ahigzbtrrvanodba2qacaa.f10102_tvai_temp.mp4"
+2023-05-22 20-29-22.246 Thread: 996 Info Trying to close the file "C:/Users/国烨林/Downloads/0bc3guaaqaaak4ahigzbtrrvanodba2qacaa.f10102_tvai_temp.mp4" false
+2023-05-22 20-29-22.747 Thread: 996 Debug Open Called for file "C:/Users/国烨林/Downloads/0bc3guaaqaaak4ahigzbtrrvanodba2qacaa.f10102_tvai_temp.mp4" -1
+2023-05-22 20-29-22.749 Thread: 16076 Debug 正在更新视频信息
+2023-05-22 20-29-22.749 Thread: 996 Critical Unable to open file "C:/Users/国烨林/Downloads/0bc3guaaqaaak4ahigzbtrrvanodba2qacaa.f10102_tvai_temp.mp4"
+2023-05-22 20-29-22.749 Thread: 996 Warning Unable to open reader at path: "C:/Users/国烨林/Downloads/0bc3guaaqaaak4ahigzbtrrvanodba2qacaa.f10102_tvai_temp.mp4"
+2023-05-22 20-29-22.750 Thread: 996 Info Trying to close the file "C:/Users/国烨林/Downloads/0bc3guaaqaaak4ahigzbtrrvanodba2qacaa.f10102_tvai_temp.mp4" false
+2023-05-22 20-29-22.750 Thread: 996 Debug Reloading file, it has changed "C:/Users/国烨林/Downloads/0bc3guaaqaaak4ahigzbtrrvanodba2qacaa.f10102_tvai_temp.mp4" "C:/Users/国烨林/Downloads/0bc3guaaqaaak4ahigzbtrrvanodba2qacaa.f10102_tvai_temp.mp4"
+2023-05-22 20-29-22.750 Thread: 16076 Info OUT: 2 frame=  199 fps=127 q=11.0 size=       0kB time=00:00:07.54 bitrate=   0.0kbits/s speed=4.83x    
+2023-05-22 20-29-22.970 Thread: 16076 Info OUT: 2 no ICC profile found, will write nclx/nclc colour info instead
+
+2023-05-22 20-29-23.247 Thread: 996 Debug Open Called for file "C:/Users/国烨林/Downloads/0bc3guaaqaaak4ahigzbtrrvanodba2qacaa.f10102_tvai_temp.mp4" -1
+2023-05-22 20-29-23.247 Thread: 16076 Debug 正在更新视频信息
+2023-05-22 20-29-23.248 Thread: 16076 Info OUT: 2     Last message repeated 1 times
+frame=  315 fps=152 q=9.0 size=   10496kB time=00:00:11.40 bitrate=7541.7kbits/s speed=5.52x    
+2023-05-22 20-29-23.445 Thread: 996 Debug CodecID: 27
+2023-05-22 20-29-23.446 Thread: 996 Debug DURATION 128000 8333333 8.33333 8.33333 128000 false
+2023-05-22 20-29-23.446 Thread: 996 Debug TIMESTEP 512 30 30 1 6.51042e-05 1 15360
+2023-05-22 20-29-23.446 Thread: 996 Info Determining start and end 0 128000
+2023-05-22 20-29-23.491 Thread: 996 Info Determined start and end 0 128000
+2023-05-22 20-29-23.491 Thread: 996 Debug Reloading file, it has changed "C:/Users/国烨林/Downloads/0bc3guaaqaaak4ahigzbtrrvanodba2qacaa.f10102_tvai_temp.mp4" "C:/Users/国烨林/Downloads/0bc3guaaqaaak4ahigzbtrrvanodba2qacaa.f10102_tvai_temp.mp4"
+2023-05-22 20-29-23.493 Thread: 16076 Info  input video opened:  "C:/Users/国烨林/Downloads/0bc3guaaqaaak4ahigzbtrrvanodba2qacaa.f10102_tvai_temp.mp4" QMap(("audio", QVariant(uint, 1))("colorPrimaries", QVariant(int, 2))("colorRange", QVariant(int, 1))("colorSpace", QVariant(int, 2))("colorTrc", QVariant(int, 2))("duration", QVariant(qlonglong, 8333))("fps", QVariant(double, 30))("framerate", QVariant(double, 30))("height", QVariant(int, 1080))("length", QVariant(qlonglong, 128000))("path", QVariant(QString, "C:/Users/国烨林/Downloads/0bc3guaaqaaak4ahigzbtrrvanodba2qacaa.f10102_tvai_temp.mp4"))("pixelFormat", QVariant(QString, "yuv420p"))("resolution", QVariant(QSize, QSize(1920, 1080)))("sar", QVariant(double, 1))("size", QVariant(QSize, QSize(1920, 1080)))("start", QVariant(qlonglong, 0))("startOffset", QVariant(qlonglong, 0))("step", QVariant(qlonglong, 512))("subtitle", QVariant(uint, 0))("timebase", QVariant(double, 6.51042e-05))("timestep", QVariant(double, 33.3333))("video", QVariant(uint, 1))("width", QVariant(int, 1920)))
+2023-05-22 20-29-23.747 Thread: 996 Debug Open Called for file "C:/Users/国烨林/Downloads/0bc3guaaqaaak4ahigzbtrrvanodba2qacaa.f10102_tvai_temp.mp4" -1
+2023-05-22 20-29-23.747 Thread: 16076 Debug 正在更新视频信息
+2023-05-22 20-29-23.748 Thread: 16076 Info OUT: 2 frame=  429 fps=167 q=10.0 size=   10496kB time=00:00:15.20 bitrate=5653.4kbits/s speed=5.93x    
+2023-05-22 20-29-23.961 Thread: 996 Debug CodecID: 27
+2023-05-22 20-29-23.962 Thread: 996 Debug DURATION 128000 8333333 8.33333 8.33333 128000 false
+2023-05-22 20-29-23.962 Thread: 996 Debug TIMESTEP 512 30 30 1 6.51042e-05 1 15360
+2023-05-22 20-29-23.963 Thread: 996 Info Determining start and end 0 128000
+2023-05-22 20-29-24.011 Thread: 996 Info Determined start and end 0 128000
+2023-05-22 20-29-24.011 Thread: 996 Info Trying to close the file "C:/Users/国烨林/Downloads/0bc3guaaqaaak4ahigzbtrrvanodba2qacaa.f10102_tvai_temp.mp4" true
+2023-05-22 20-29-24.011 Thread: 996 Info Closing the file "C:/Users/国烨林/Downloads/0bc3guaaqaaak4ahigzbtrrvanodba2qacaa.f10102_tvai_temp.mp4"
+2023-05-22 20-29-24.012 Thread: 996 Debug Reloading file, it has changed "C:/Users/国烨林/Downloads/0bc3guaaqaaak4ahigzbtrrvanodba2qacaa.f10102_tvai_temp.mp4" "C:/Users/国烨林/Downloads/0bc3guaaqaaak4ahigzbtrrvanodba2qacaa.f10102_tvai_temp.mp4"
+2023-05-22 20-29-24.013 Thread: 16076 Info  input video opened:  "C:/Users/国烨林/Downloads/0bc3guaaqaaak4ahigzbtrrvanodba2qacaa.f10102_tvai_temp.mp4" QMap(("audio", QVariant(uint, 1))("colorPrimaries", QVariant(int, 2))("colorRange", QVariant(int, 1))("colorSpace", QVariant(int, 2))("colorTrc", QVariant(int, 2))("duration", QVariant(qlonglong, 8333))("fps", QVariant(double, 30))("framerate", QVariant(double, 30))("height", QVariant(int, 1080))("length", QVariant(qlonglong, 128000))("path", QVariant(QString, "C:/Users/国烨林/Downloads/0bc3guaaqaaak4ahigzbtrrvanodba2qacaa.f10102_tvai_temp.mp4"))("pixelFormat", QVariant(QString, "yuv420p"))("resolution", QVariant(QSize, QSize(1920, 1080)))("sar", QVariant(double, 1))("size", QVariant(QSize, QSize(1920, 1080)))("start", QVariant(qlonglong, 0))("startOffset", QVariant(qlonglong, 0))("step", QVariant(qlonglong, 512))("subtitle", QVariant(uint, 0))("timebase", QVariant(double, 6.51042e-05))("timestep", QVariant(double, 33.3333))("video", QVariant(uint, 1))("width", QVariant(int, 1920)))
+2023-05-22 20-29-24.077 Thread: 16576 Debug Open Called in VR "C:/Users/国烨林/Downloads/0bc3guaaqaaak4ahigzbtrrvanodba2qacaa.f10102.mp4" 0x40c0
+2023-05-22 20-29-24.085 Thread: 16076 Info  input video opened:  "" QMap(("audio", QVariant(uint, 1))("colorPrimaries", QVariant(int, 2))("colorRange", QVariant(int, 1))("colorSpace", QVariant(int, 2))("colorTrc", QVariant(int, 2))("duration", QVariant(qlonglong, 352466))("fps", QVariant(double, 30))("framerate", QVariant(double, 30))("height", QVariant(int, 1080))("length", QVariant(qlonglong, 31722000))("path", QVariant(QString, "C:/Users/国烨林/Downloads/0bc3guaaqaaak4ahigzbtrrvanodba2qacaa.f10102.mp4"))("pixelFormat", QVariant(QString, "yuv420p"))("resolution", QVariant(QSize, QSize(1920, 1080)))("sar", QVariant(double, 1))("size", QVariant(QSize, QSize(1920, 1080)))("start", QVariant(qlonglong, 0))("startOffset", QVariant(qlonglong, 0))("step", QVariant(qlonglong, 3000))("subtitle", QVariant(uint, 0))("timebase", QVariant(double, 1.11111e-05))("timestep", QVariant(double, 33.3333))("video", QVariant(uint, 1))("width", QVariant(int, 1920)))
+2023-05-22 20-29-24.251 Thread: 16076 Info OUT: 2 frame=  532 fps=173 q=14.0 size=   20224kB time=00:00:18.64 bitrate=8885.5kbits/s speed=6.08x    
+2023-05-22 20-29-24.751 Thread: 16076 Info OUT: 2 frame=  648 fps=182 q=10.0 size=   20224kB time=00:00:22.50 bitrate=7363.3kbits/s speed=6.31x    
+2023-05-22 20-29-25.252 Thread: 16076 Info OUT: 2 frame=  788 fps=194 q=9.0 size=   31744kB time=00:00:27.16 bitrate=9572.0kbits/s speed=6.68x    
+2023-05-22 20-29-25.752 Thread: 16076 Info OUT: 2 frame=  925 fps=202 q=14.0 size=   31744kB time=00:00:31.74 bitrate=8192.6kbits/s speed=6.95x    
+2023-05-22 20-29-26.254 Thread: 16076 Info OUT: 2 frame= 1052 fps=207 q=14.0 size=   46336kB time=00:00:35.96 bitrate=10553.5kbits/s speed=7.09x    
+2023-05-22 20-29-26.754 Thread: 16076 Info OUT: 2 frame= 1163 fps=209 q=18.0 size=   46336kB time=00:00:39.68 bitrate=9565.4kbits/s speed=7.12x    
+2023-05-22 20-29-27.254 Thread: 16076 Info OUT: 2 frame= 1291 fps=213 q=11.0 size=   60930kB time=00:00:43.93 bitrate=11361.6kbits/s speed=7.23x    
+2023-05-22 20-29-27.758 Thread: 16076 Info OUT: 2 frame= 1400 fps=213 q=9.0 size=   60930kB time=00:00:47.55 bitrate=10496.1kbits/s speed=7.23x    
+2023-05-22 20-29-28.260 Thread: 16076 Info OUT: 2 frame= 1547 fps=219 q=11.0 size=   76034kB time=00:00:52.45 bitrate=11874.6kbits/s speed=7.41x    
+2023-05-22 20-29-28.758 Thread: 16076 Info OUT: 2 frame= 1710 fps=226 q=15.0 size=   76034kB time=00:00:57.88 bitrate=10760.0kbits/s speed=7.64x    
+2023-05-22 20-29-29.259 Thread: 16076 Info OUT: 2 frame= 1843 fps=228 q=21.0 size=   91906kB time=00:01:02.34 bitrate=12076.1kbits/s speed=7.72x    
+2023-05-22 20-29-29.760 Thread: 16076 Info OUT: 2 frame= 1986 fps=232 q=14.0 size=   91906kB time=00:01:07.10 bitrate=11219.5kbits/s speed=7.82x    
+2023-05-22 20-29-30.260 Thread: 16076 Info OUT: 2 frame= 2116 fps=233 q=11.0 size=  108546kB time=00:01:11.44 bitrate=12445.6kbits/s speed=7.87x    
+2023-05-22 20-29-30.762 Thread: 16076 Info OUT: 2 frame= 2263 fps=236 q=9.0 size=  122882kB time=00:01:16.34 bitrate=13185.1kbits/s speed=7.97x    
+2023-05-22 20-29-31.263 Thread: 16076 Info OUT: 2 frame= 2423 fps=240 q=14.0 size=  122882kB time=00:01:21.66 bitrate=12326.6kbits/s speed= 8.1x    
+2023-05-22 20-29-31.765 Thread: 16076 Info OUT: 2 frame= 2525 fps=239 q=18.0 size=  140034kB time=00:01:25.07 bitrate=13483.6kbits/s speed=8.04x    
+2023-05-22 20-29-32.272 Thread: 16076 Info OUT: 2 frame= 2639 fps=238 q=11.0 size=  140034kB time=00:01:28.86 bitrate=12909.3kbits/s speed=8.02x    
+2023-05-22 20-29-32.769 Thread: 16076 Info OUT: 2 frame= 2752 fps=238 q=10.0 size=  152578kB time=00:01:32.64 bitrate=13491.1kbits/s speed=   8x    
+2023-05-22 20-29-33.267 Thread: 16076 Info OUT: 2 frame= 2873 fps=238 q=14.0 size=  152578kB time=00:01:36.66 bitrate=12930.5kbits/s speed=   8x    
+2023-05-22 20-29-33.768 Thread: 16076 Info OUT: 2 frame= 2982 fps=237 q=10.0 size=  152578kB time=00:01:40.31 bitrate=12460.5kbits/s speed=7.97x    
+2023-05-22 20-29-34.271 Thread: 16076 Info OUT: 2 frame= 3092 fps=236 q=12.0 size=  167170kB time=00:01:43.97 bitrate=13170.5kbits/s speed=7.94x    
+2023-05-22 20-29-34.771 Thread: 16076 Info OUT: 2 frame= 3200 fps=235 q=17.0 size=  167170kB time=00:01:47.57 bitrate=12729.9kbits/s speed=7.92x    
+2023-05-22 20-29-35.271 Thread: 16076 Info OUT: 2 frame= 3311 fps=235 q=9.0 size=  181250kB time=00:01:51.27 bitrate=13344.1kbits/s speed= 7.9x    
+2023-05-22 20-29-35.773 Thread: 16076 Info OUT: 2 frame= 3425 fps=235 q=11.0 size=  181250kB time=00:01:55.05 bitrate=12905.1kbits/s speed=7.89x    
+2023-05-22 20-29-36.275 Thread: 16076 Info OUT: 2 frame= 3535 fps=234 q=11.0 size=  192514kB time=00:01:58.74 bitrate=13281.0kbits/s speed=7.87x    
+2023-05-22 20-29-36.775 Thread: 16076 Info OUT: 2 frame= 3644 fps=234 q=11.0 size=  192514kB time=00:02:02.36 bitrate=12887.8kbits/s speed=7.85x    
+2023-05-22 20-29-37.280 Thread: 16076 Info OUT: 2 frame= 3755 fps=233 q=11.0 size=  204546kB time=00:02:06.08 bitrate=13289.8kbits/s speed=7.83x    
+2023-05-22 20-29-37.782 Thread: 16076 Info OUT: 2 frame= 3847 fps=232 q=11.0 size=  204546kB time=00:02:09.14 bitrate=12974.4kbits/s speed=7.78x    
+2023-05-22 20-29-38.281 Thread: 16076 Info OUT: 2 frame= 3950 fps=231 q=10.0 size=  204546kB time=00:02:12.58 bitrate=12638.1kbits/s speed=7.75x    
+2023-05-22 20-29-38.781 Thread: 16076 Info OUT: 2 frame= 4055 fps=230 q=10.0 size=  213250kB time=00:02:16.06 bitrate=12838.7kbits/s speed=7.73x    
+2023-05-22 20-29-39.284 Thread: 16076 Info OUT: 2 frame= 4163 fps=230 q=15.0 size=  213250kB time=00:02:19.66 bitrate=12507.8kbits/s speed=7.72x    
+2023-05-22 20-29-39.783 Thread: 16076 Info OUT: 2 frame= 4261 fps=229 q=11.0 size=  224514kB time=00:02:22.94 bitrate=12866.9kbits/s speed=7.68x    
+2023-05-22 20-29-40.284 Thread: 16076 Info OUT: 2 frame= 4361 fps=228 q=13.0 size=  224514kB time=00:02:26.26 bitrate=12574.8kbits/s speed=7.66x    
+2023-05-22 20-29-40.785 Thread: 16076 Info OUT: 2 frame= 4475 fps=228 q=10.0 size=  224514kB time=00:02:30.07 bitrate=12255.7kbits/s speed=7.66x    
+2023-05-22 20-29-41.288 Thread: 16076 Info OUT: 2 frame= 4584 fps=228 q=10.0 size=  238082kB time=00:02:33.71 bitrate=12688.1kbits/s speed=7.65x    
+2023-05-22 20-29-41.789 Thread: 16076 Info OUT: 2 frame= 4696 fps=228 q=10.0 size=  238082kB time=00:02:37.43 bitrate=12388.7kbits/s speed=7.64x    
+2023-05-22 20-29-42.290 Thread: 16076 Info OUT: 2 frame= 4816 fps=228 q=10.0 size=  246530kB time=00:02:41.44 bitrate=12509.1kbits/s speed=7.65x    
+2023-05-22 20-29-42.791 Thread: 16076 Info OUT: 2 frame= 4947 fps=229 q=8.0 size=  246530kB time=00:02:45.81 bitrate=12179.8kbits/s speed=7.67x    
+2023-05-22 20-29-43.293 Thread: 16076 Info OUT: 2 frame= 5058 fps=229 q=10.0 size=  254466kB time=00:02:49.50 bitrate=12298.0kbits/s speed=7.67x    
+2023-05-22 20-29-43.795 Thread: 16076 Info OUT: 2 frame= 5174 fps=229 q=10.0 size=  254466kB time=00:02:53.38 bitrate=12023.0kbits/s speed=7.67x    
+2023-05-22 20-29-44.301 Thread: 16076 Info OUT: 2 frame= 5284 fps=229 q=10.0 size=  268034kB time=00:02:57.05 bitrate=12401.6kbits/s speed=7.66x    
+2023-05-22 20-29-44.805 Thread: 16076 Info OUT: 2 frame= 5397 fps=228 q=12.0 size=  268034kB time=00:03:00.81 bitrate=12143.6kbits/s speed=7.65x    
+2023-05-22 20-29-45.304 Thread: 16076 Info OUT: 2 frame= 5511 fps=228 q=11.0 size=  279554kB time=00:03:04.59 bitrate=12405.9kbits/s speed=7.65x    
+2023-05-22 20-29-45.804 Thread: 16076 Info OUT: 2 frame= 5615 fps=228 q=11.0 size=  279554kB time=00:03:08.05 bitrate=12177.6kbits/s speed=7.64x    
+2023-05-22 20-29-46.305 Thread: 16076 Info OUT: 2 frame= 5716 fps=228 q=11.0 size=  279554kB time=00:03:11.44 bitrate=11962.0kbits/s speed=7.62x    
+2023-05-22 20-29-46.807 Thread: 16076 Info OUT: 2 frame= 5818 fps=227 q=11.0 size=  290050kB time=00:03:14.83 bitrate=12195.2kbits/s speed= 7.6x    
+2023-05-22 20-29-47.310 Thread: 16076 Info OUT: 2 frame= 5927 fps=227 q=11.0 size=  290050kB time=00:03:18.48 bitrate=11971.2kbits/s speed= 7.6x    
+2023-05-22 20-29-47.811 Thread: 16076 Info OUT: 2 frame= 6038 fps=227 q=11.0 size=  299010kB time=00:03:22.17 bitrate=12115.6kbits/s speed=7.59x    
+2023-05-22 20-29-48.314 Thread: 16076 Info OUT: 2 frame= 6143 fps=226 q=10.0 size=  299010kB time=00:03:25.68 bitrate=11909.1kbits/s speed=7.58x    
+2023-05-22 20-29-48.813 Thread: 16076 Info OUT: 2 frame= 6246 fps=226 q=9.0 size=  299010kB time=00:03:29.11 bitrate=11713.4kbits/s speed=7.57x    
+2023-05-22 20-29-49.317 Thread: 16076 Info OUT: 2 frame= 6350 fps=226 q=10.0 size=  308226kB time=00:03:32.57 bitrate=11877.9kbits/s speed=7.56x    
+2023-05-22 20-29-49.820 Thread: 16076 Info OUT: 2 frame= 6454 fps=225 q=11.0 size=  308226kB time=00:03:36.03 bitrate=11687.7kbits/s speed=7.54x    
+2023-05-22 20-29-50.319 Thread: 16076 Info OUT: 2 frame= 6562 fps=225 q=11.0 size=  318210kB time=00:03:39.63 bitrate=11868.5kbits/s speed=7.54x    
+2023-05-22 20-29-50.824 Thread: 16076 Info OUT: 2 frame= 6679 fps=225 q=11.0 size=  318210kB time=00:03:43.53 bitrate=11661.4kbits/s speed=7.54x    
+2023-05-22 20-29-51.323 Thread: 16076 Info OUT: 2 frame= 6797 fps=226 q=11.0 size=  329474kB time=00:03:47.48 bitrate=11864.7kbits/s speed=7.55x    
+2023-05-22 20-29-51.823 Thread: 16076 Info OUT: 2 frame= 6916 fps=226 q=10.0 size=  329474kB time=00:03:51.43 bitrate=11662.3kbits/s speed=7.55x    
+2023-05-22 20-29-52.325 Thread: 16076 Info OUT: 2 frame= 7043 fps=226 q=11.0 size=  338178kB time=00:03:55.68 bitrate=11754.6kbits/s speed=7.57x    
+2023-05-22 20-29-52.827 Thread: 16076 Info OUT: 2 frame= 7179 fps=227 q=10.0 size=  338178kB time=00:04:00.18 bitrate=11534.1kbits/s speed=7.59x    
+2023-05-22 20-29-53.328 Thread: 16076 Info OUT: 2 frame= 7305 fps=227 q=11.0 size=  346370kB time=00:04:04.41 bitrate=11609.3kbits/s speed= 7.6x    
+2023-05-22 20-29-53.830 Thread: 16076 Info OUT: 2 frame= 7433 fps=228 q=11.0 size=  346370kB time=00:04:08.66 bitrate=11410.9kbits/s speed=7.62x    
+2023-05-22 20-29-54.330 Thread: 16076 Info OUT: 2 frame= 7550 fps=228 q=14.0 size=  359170kB time=00:04:12.58 bitrate=11648.8kbits/s speed=7.62x    
+2023-05-22 20-29-54.836 Thread: 16076 Info OUT: 2 frame= 7652 fps=227 q=15.0 size=  359170kB time=00:04:15.95 bitrate=11495.5kbits/s speed=7.61x    
+2023-05-22 20-29-55.332 Thread: 16076 Info OUT: 2 frame= 7762 fps=227 q=10.0 size=  372482kB time=00:04:19.64 bitrate=11752.1kbits/s speed= 7.6x    
+2023-05-22 20-29-55.833 Thread: 16076 Info OUT: 2 frame= 7888 fps=228 q=9.0 size=  372482kB time=00:04:23.84 bitrate=11564.9kbits/s speed=7.61x    
+2023-05-22 20-29-56.333 Thread: 16076 Info OUT: 2 frame= 8013 fps=228 q=8.0 size=  382466kB time=00:04:28.00 bitrate=11690.7kbits/s speed=7.62x    
+2023-05-22 20-29-56.835 Thread: 16076 Info OUT: 2 frame= 8125 fps=228 q=8.0 size=  382466kB time=00:04:31.74 bitrate=11529.9kbits/s speed=7.62x    
+2023-05-22 20-29-57.335 Thread: 16076 Info OUT: 2 frame= 8244 fps=228 q=10.0 size=  382466kB time=00:04:35.71 bitrate=11363.8kbits/s speed=7.63x    
+2023-05-22 20-29-57.837 Thread: 16076 Info OUT: 2 frame= 8369 fps=228 q=11.0 size=  391682kB time=00:04:39.87 bitrate=11464.8kbits/s speed=7.64x    
+2023-05-22 20-29-58.337 Thread: 16076 Info OUT: 2 frame= 8486 fps=228 q=11.0 size=  391682kB time=00:04:43.77 bitrate=11307.2kbits/s speed=7.64x    
+2023-05-22 20-29-58.840 Thread: 16076 Info OUT: 2 frame= 8609 fps=229 q=11.0 size=  400898kB time=00:04:47.88 bitrate=11408.0kbits/s speed=7.64x    
+2023-05-22 20-29-59.340 Thread: 16076 Info OUT: 2 frame= 8723 fps=229 q=21.0 size=  400898kB time=00:04:51.66 bitrate=11260.0kbits/s speed=7.64x    
+2023-05-22 20-29-59.840 Thread: 16076 Info OUT: 2 frame= 8861 fps=229 q=12.0 size=  415234kB time=00:04:56.26 bitrate=11481.7kbits/s speed=7.66x    
+2023-05-22 20-30-00.340 Thread: 16076 Info OUT: 2 frame= 8981 fps=229 q=18.0 size=  415234kB time=00:05:00.28 bitrate=11328.1kbits/s speed=7.67x    
+2023-05-22 20-30-00.841 Thread: 16076 Info OUT: 2 frame= 9091 fps=229 q=19.0 size=  430850kB time=00:05:03.94 bitrate=11612.2kbits/s speed=7.66x    
+2023-05-22 20-30-01.343 Thread: 16076 Info OUT: 2 frame= 9216 fps=229 q=20.0 size=  430850kB time=00:05:08.10 bitrate=11455.6kbits/s speed=7.67x    
+2023-05-22 20-30-01.845 Thread: 16076 Info OUT: 2 frame= 9336 fps=230 q=12.0 size=  446722kB time=00:05:12.09 bitrate=11725.6kbits/s speed=7.68x    
+2023-05-22 20-30-02.343 Thread: 16076 Info OUT: 2 frame= 9461 fps=230 q=10.0 size=  446722kB time=00:05:16.25 bitrate=11571.5kbits/s speed=7.68x    
+2023-05-22 20-30-02.849 Thread: 16076 Info OUT: 2 frame= 9584 fps=230 q=11.0 size=  459010kB time=00:05:20.36 bitrate=11737.2kbits/s speed=7.69x    
+2023-05-22 20-30-03.356 Thread: 16076 Info OUT: 2 frame= 9709 fps=230 q=14.0 size=  459010kB time=00:05:24.54 bitrate=11586.1kbits/s speed= 7.7x    
+2023-05-22 20-30-03.855 Thread: 16076 Info OUT: 2 frame= 9811 fps=230 q=9.0 size=  472834kB time=00:05:27.93 bitrate=11811.6kbits/s speed=7.68x    
+2023-05-22 20-30-04.357 Thread: 16076 Info OUT: 2 frame= 9927 fps=230 q=8.0 size=  472834kB time=00:05:31.81 bitrate=11673.6kbits/s speed=7.69x    
+2023-05-22 20-30-04.857 Thread: 16076 Info OUT: 2 frame=10083 fps=231 q=10.0 size=  483842kB time=00:05:37.01 bitrate=11761.0kbits/s speed=7.72x    
+2023-05-22 20-30-05.357 Thread: 16076 Info OUT: 2 frame=10220 fps=231 q=10.0 size=  483842kB time=00:05:41.56 bitrate=11604.3kbits/s speed=7.73x    
+2023-05-22 20-30-05.857 Thread: 16076 Info OUT: 2 frame=10379 fps=232 q=10.0 size=  491522kB time=00:05:46.85 bitrate=11608.6kbits/s speed=7.76x    
+2023-05-22 20-30-06.359 Thread: 16076 Info OUT: 2 frame=10510 fps=233 q=10.0 size=  500226kB time=00:05:51.24 bitrate=11666.5kbits/s speed=7.77x    
+2023-05-22 20-30-06.537 Thread: 16076 Info OUT: 2 frame=10574 fps=233 q=8.0 Lsize=  503251kB time=00:05:52.52 bitrate=11694.6kbits/s speed=7.77x    
+video:491274kB audio:11823kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.030557%
+
+2023-05-22 20-30-06.610 Thread: 16076 Info OUT: 2 [48;5;0m[38;5;0m[aac @ 000001C1988CB280] [0mQavg: 60774.715
+
+2023-05-22 20-30-06.652 Thread: 16076 Info EXITED: 2 0 0
+2023-05-22 20-30-06.652 Thread: 16076 Debug passProcDone 0 2 2 0 0
+2023-05-22 20-30-06.652 Thread: 16076 Debug Cleanup pass [-hide_banner,-nostdin,-y,-i,C:/Users/国烨林/Downloads/0bc3guaaqaaak4ahigzbtrrvanodba2qacaa.f10102_tvai_temp.mp4,-c:v,copy,-map_metadata,0,-movflags,use_metadata_tags,-c:a,copy,C:/Users/国烨林/Downloads/0bc3guaaqaaak4ahigzbtrrvanodba2qacaa.f10102_tvai.mp4]
+2023-05-22 20-30-06.653 Thread: 16076 Info "D:/TopazVideoAI/App/Topaz Video AI/ffmpeg" QList("-hide_banner", "-nostdin", "-y", "-i", "C:/Users/国烨林/Downloads/0bc3guaaqaaak4ahigzbtrrvanodba2qacaa.f10102_tvai_temp.mp4", "-c:v", "copy", "-map_metadata", "0", "-movflags", "use_metadata_tags", "-c:a", "copy", "C:/Users/国烨林/Downloads/0bc3guaaqaaak4ahigzbtrrvanodba2qacaa.f10102_tvai.mp4") false
+2023-05-22 20-30-06.660 Thread: 16076 Info ffmpeg started 2 CMD: D:/TopazVideoAI/App/Topaz Video AI/ffmpeg -hide_banner -nostdin -y -i C:/Users/国烨林/Downloads/0bc3guaaqaaak4ahigzbtrrvanodba2qacaa.f10102_tvai_temp.mp4 -c:v copy -map_metadata 0 -movflags use_metadata_tags -c:a copy C:/Users/国烨林/Downloads/0bc3guaaqaaak4ahigzbtrrvanodba2qacaa.f10102_tvai.mp4
+2023-05-22 20-30-06.662 Thread: 16076 Info ~TProcess(): destroyed
+2023-05-22 20-30-06.794 Thread: 16076 Info OUT: 2 [48;5;0m[38;5;0m[h264 @ 000002E55A3F5900] [0m[48;5;0m[38;5;0mIncreasing reorder buffer to 2
+[0m
+2023-05-22 20-30-06.933 Thread: 16076 Info OUT: 2 Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'C:/Users/国烨林/Downloads/0bc3guaaqaaak4ahigzbtrrvanodba2qacaa.f10102_tvai_temp.mp4':
+  Metadata:
+    minor_version   : 512
+    major_brand     : isom
+    compatible_brands: isomiso2mp41
+    description     : Tencent CAPD MTS 
+    encoder         : Lavf60.4.100
+  Duration: 00:05:52.57, start: 0.000000, bitrate: 11693 kb/s
+  Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, progressive), 1920x1080 [SAR 1:1 DAR 16:9], 11418 kb/s, 30 fps, 30 tbr, 15360 tbn (default)
+    Metadata:
+      handler_name    : VideoHandler
+      vendor_id       : [0][0][0][0]
+      encoder         : Lavc60.6.100 h264_nvenc
+
+2023-05-22 20-30-06.933 Thread: 16076 Info OUT: 2   Stream #0:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 274 kb/s (default)
+    Metadata:
+      handler_name    : SoundHandler
+      vendor_id       : [0][0][0][0]
+
+2023-05-22 20-30-06.934 Thread: 16076 Info OUT: 2 Output #0, mp4, to 'C:/Users/国烨林/Downloads/0bc3guaaqaaak4ahigzbtrrvanodba2qacaa.f10102_tvai.mp4':
+  Metadata:
+    minor_version   : 512
+    major_brand     : isom
+    compatible_brands: isomiso2mp41
+    description     : Tencent CAPD MTS 
+    encoder         : Lavf60.4.100
+  Stream #0:0(und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, progressive), 1920x1080 [SAR 1:1 DAR 16:9], q=2-31, 11418 kb/s, 30 fps, 30 tbr, 15360 tbn (default)
+    Metadata:
+      handler_name    : VideoHandler
+      vendor_id       : [0][0][0][0]
+      encoder         : Lavc60.6.100 h264_nvenc
+
+2023-05-22 20-30-06.934 Thread: 16076 Info OUT: 2   Stream #0:1(und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 274 kb/s (default)
+    Metadata:
+      handler_name    : SoundHandler
+      vendor_id       : [0][0][0][0]
+Stream mapping:
+  Stream #0:0 -> #0:0 (copy)
+  Stream #0:1 -> #0:1 (copy)
+
+2023-05-22 20-30-06.936 Thread: 16076 Info OUT: 2 frame=    0 fps=0.0 q=-1.0 size=       0kB time=-00:00:00.10 bitrate=  -0.0kbits/s speed=N/A    
+2023-05-22 20-30-07.435 Thread: 16076 Info OUT: 2 frame= 5551 fps=0.0 q=-1.0 size=  280832kB time=00:03:04.93 bitrate=12440.0kbits/s speed= 369x    
+2023-05-22 20-30-07.938 Thread: 16076 Info OUT: 2 frame= 9163 fps=9139 q=-1.0 size=  439296kB time=00:05:05.33 bitrate=11786.2kbits/s speed= 305x    
+2023-05-22 20-30-08.166 Thread: 16076 Info OUT: 2 frame=10574 fps=8581 q=-1.0 Lsize=  503473kB time=00:05:52.52 bitrate=11699.7kbits/s speed= 286x    
+video:491274kB audio:11823kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.074584%
+
+2023-05-22 20-30-08.178 Thread: 16076 Info EXITED: 2 0 0
+2023-05-22 20-30-08.179 Thread: 16076 Debug passProcDone 1 2 2 0 0
+2023-05-22 20-30-08.179 Thread: 16076 Info Trying to close the file "C:/Users/国烨林/Downloads/0bc3guaaqaaak4ahigzbtrrvanodba2qacaa.f10102_tvai_temp.mp4" true
+2023-05-22 20-30-08.179 Thread: 16076 Info Closing the file "C:/Users/国烨林/Downloads/0bc3guaaqaaak4ahigzbtrrvanodba2qacaa.f10102_tvai_temp.mp4"
+2023-05-22 20-30-08.180 Thread: 16076 Info Delete after close "C:/Users/国烨林/Downloads/0bc3guaaqaaak4ahigzbtrrvanodba2qacaa.f10102_tvai_temp.mp4"
+2023-05-22 20-30-08.214 Thread: 16076 Info Removing video "C:/Users/国烨林/Downloads/0bc3guaaqaaak4ahigzbtrrvanodba2qacaa.f10102_tvai_temp.mp4" 1
+2023-05-22 20-30-08.214 Thread: 16076 Info Close and delete path "C:/Users/国烨林/Downloads/0bc3guaaqaaak4ahigzbtrrvanodba2qacaa.f10102_tvai_temp.mp4"
+2023-05-22 20-30-08.216 Thread: 16076 Info ~TProcess(): destroyed
+2023-05-22 20-31-33.166 Thread: 16576 Debug Open Called in VR "" 0x40c0
+2023-05-22 20-31-33.168 Thread: 16076 Info Removing video "C:/Users/国烨林/Downloads/0bc3guaaqaaak4ahigzbtrrvanodba2qacaa.f10102.mp4" 0
+2023-05-22 20-31-33.168 Thread: 16076 Info Cleanup directories C:/Users/国烨林/AppData/Local/Temp/VideoAIportableTemp/160751192/temp C:/Users/国烨林/AppData/Local/Temp/VideoAIportableTemp/160751192
+2023-05-22 20-31-33.170 Thread: 16576 Debug Open Called in VR "" 0x40c0
+2023-05-22 20-31-33.171 Thread: 16576 Debug Open Called in VR "" 0x40c0
+2023-05-22 20-31-33.172 Thread: 16076 Info Cleanup directories C:/Users/国烨林/AppData/Local/Temp/VideoAIportableTemp/160751192/temp C:/Users/国烨林/AppData/Local/Temp/VideoAIportableTemp/160751192
+2023-05-22 20-31-33.232 Thread: 16076 Info ~TProcess(): destroyed
+2023-05-22 20-31-33.233 Thread: 16076 Info ~TProcess(): destroyed
+2023-05-22 20-31-33.241 Thread: 16076 Info Trying to close the file "C:/Users/国烨林/Downloads/0bc3guaaqaaak4ahigzbtrrvanodba2qacaa.f10102.mp4" true
+2023-05-22 20-31-33.241 Thread: 16076 Info Closing the file "C:/Users/国烨林/Downloads/0bc3guaaqaaak4ahigzbtrrvanodba2qacaa.f10102.mp4"
+2023-05-22 20-31-33.248 Thread: 16076 Info ~TProcess(): destroyed
+2023-05-22 20-31-33.260 Thread: 16076 Info ~TProcess(): destroyed

@@ -1,0 +1,34 @@
+"AppState"
+{
+	"appid"		"636480"
+	"universe"		"1"
+	"LauncherPath"		"C:\\Program Files (x86)\\Steam\\steam.exe"
+	"name"		"Ravenfield"
+	"StateFlags"		"4"
+	"installdir"		"Ravenfield"
+	"LastUpdated"		"1737898622"
+	"LastPlayed"		"1738333039"
+	"SizeOnDisk"		"1999073364"
+	"StagingSize"		"0"
+	"buildid"		"16680387"
+	"LastOwner"		"76561198835422615"
+	"AutoUpdateBehavior"		"0"
+	"AllowOtherDownloadsWhileRunning"		"0"
+	"ScheduledAutoUpdate"		"0"
+	"InstalledDepots"
+	{
+		"636481"
+		{
+			"manifest"		"3893186534429657894"
+			"size"		"1999073364"
+		}
+	}
+	"UserConfig"
+	{
+		"language"		"english"
+	}
+	"MountedConfig"
+	{
+		"language"		"english"
+	}
+}
