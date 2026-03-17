@@ -3,11 +3,11 @@
 	<VersionConf>16:16:16:16</VersionConf>
 	<ClientConf>
 		<VersionData>
-			<Version>4.3.4.48</Version>
+			<Version>1.0.7.0</Version>
 			<Uin>8001</Uin>
 			<WorldID>2.1.1.0</WorldID>
 		</VersionData>
-		<VersionDemoStr>v3.0.0.94</VersionDemoStr>
+		<VersionDemoStr></VersionDemoStr>
 		<resv1></resv1>
 	</ClientConf>
 </VersionUpdateData>
